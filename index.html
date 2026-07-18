@@ -2,10 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="site-header">
+    <div class="container header-layout">
+      <a class="brand" href="#">Eric Jordan</a>
+      <nav class="site-nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Developer • Designer • Creator</p>
+          <h1>Building thoughtful web experiences with a bold edge.</h1>
+          <p>I create polished websites that feel modern, clear, and memorable. I love turning ideas into calm, confident digital experiences.</p>
+
+          <div class="button-row">
+            <a class="button primary" href="https://github.com/GCA-Classroom" target="_blank" rel="noopener">View GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+            <a class="button secondary" href="resume.html">View Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="img/me.jpg" alt="Headshot of the portfolio owner">
+          <p class="card-label">Available for freelance projects and collaboration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Featured work</p>
+          <h2>Projects and public work</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="project-card">
+            <h3>Personal Portfolio Site</h3>
+            <p>A clean, professional website that highlights your identity, work, and personality.</p>
+            <a href="https://github.com/GCA-Classroom/01-prj-personal-site" target="_blank" rel="noopener">Open project</a>
+          </article>
+
+          <article class="project-card">
+            <h3>GitHub Profile</h3>
+            <p>Browse more repositories, experiments, and creative coding projects.</p>
+            <a href="https://github.com/ericjsquared" target="_blank" rel="noopener">Visit GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Design Notes</h3>
+            <p>Thoughtful process notes and ideas behind the visuals and user experience.</p>
+            <a href="https://github.com/ericjsquared" target="_blank" rel="noopener">Browse more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section about-section">
+      <div class="container about-layout">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>I blend clean design with a little edge.</h2>
+          <p>I enjoy creating websites that feel modern and welcoming while still carrying a distinct sense of personality. My work mixes thoughtful structure, strong visuals, and a confident point of view.</p>
+          <p>Whether I am building a landing page, a polished product site, or a personal brand presence, I focus on clarity, detail, and a memorable experience.</p>
+        </div>
+
+        <div class="about-panel">
+          <h3>What I bring</h3>
+          <ul>
+            <li>Clear, professional web design</li>
+            <li>Simple, maintainable front-end code</li>
+            <li>Thoughtful attention to detail</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thanks for visiting.</p>
+    </div>
+  </footer>
 </body>
 </html>
