@@ -32,7 +32,7 @@ body::before {
 }
 
 .container {
-  width: min(1100px, 90%);
+  width: min(1250px, 92%);
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ body::before {
 }
 
 .hero {
-  padding: 4rem 0 3rem;
+  padding: 5.5rem 0 4rem;
 }
 
 .hero-layout,
@@ -87,7 +87,7 @@ body::before {
 }
 
 .hero-copy {
-  max-width: 610px;
+  max-width: 720px;
 }
 
 .eyebrow {
@@ -121,9 +121,10 @@ p {
 
 .button-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.8rem;
   margin-top: 1.4rem;
+  overflow-x: auto;
 }
 
 .button {
@@ -133,6 +134,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -184,7 +186,7 @@ p {
 }
 
 .section {
-  padding: 2rem 0 3rem;
+  padding: 2.5rem 0 3.5rem;
 }
 
 .section-heading {
