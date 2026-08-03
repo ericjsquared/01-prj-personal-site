@@ -235,6 +235,35 @@ p {
   border-top: 1px solid var(--border);
 }
 
+.projects-page {
+  padding: 3rem 0;
+}
+
+.projects-intro {
+  max-width: 720px;
+  margin-bottom: 1.5rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.projects-grid .project-card {
+  flex: 1 1 280px;
+}
+
+.project-meta {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
 .resume-page {
   padding: 3rem 0;
 }
